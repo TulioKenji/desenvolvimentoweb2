@@ -4,7 +4,8 @@
   "main": "server.js",
   "scripts": {
     "version":"node -v",
-    "go": "node ./src/server.js"
+    "start": "node ./src/server.js",
+    "dev": "node --watch ./src/server.js"
   },
   "author": "",
   "license": "ISC",
